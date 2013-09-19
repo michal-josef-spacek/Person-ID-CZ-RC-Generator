@@ -1,0 +1,49 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 bc3df891fba2baa4f2472a89db51188778564fcd Changes
+SHA1 5197129052650619583257d716aa95dcf81b6572 Generator.pm
+SHA1 2039384c67092a5dcb07a7ac68cec34f42eadf9a LICENSE
+SHA1 1ce0247ed70908dfd15ab0c8704241404e2ef3ac MANIFEST
+SHA1 4a63069951d3dba7f5582578440cbeef3741ca61 META.yml
+SHA1 ba73b1f09cb39320bd10abf7340aa9bf5425d73f Makefile.PL
+SHA1 36303723dee4137b38c07d8d25e99d7f0f665a36 README
+SHA1 13ca755551cbfc2a07488d0dc00e20e43f2f666f examples/ex1.pl
+SHA1 9b21bb95e5d3eb706cec509ffbe439b97f7a0b2c examples/ex2.pl
+SHA1 23b48ee433f48cb99f5e06a06ea531d7a5942cb5 examples/ex3.pl
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 34c002753b5cea2c331358419941906d6ad9ad59 t/Person-ID-CZ-RC-Generator/00-use.t
+SHA1 7bba321a9afd53390780c6359373379d8ef2ecfe t/Person-ID-CZ-RC-Generator/01-version.t
+SHA1 240f0d5cb64e9b53cd37e65a24a78778cd27bbe7 t/Person-ID-CZ-RC-Generator/02-pod_coverage.t
+SHA1 82efecc33032f9d49c450c4d97c1dd7cfc188bbb t/Person-ID-CZ-RC-Generator/03-pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSOtrCAAoJEAwa+cf4dLBaqocIALooDD2WNCaPDMJ2n+Lt1Gum
+5VQMa7Ozw/hBMmJbtpw7HIsZ7z6+cE4+zet7VFQPIgFYDAanaIEohDBdiZb/ImZW
+PH+O3S6SUtI30O/LA/OG/N5YnQ34mD/29RIRydFokCcYkwgchOHMmD6PJ601lROI
+di9yVz0h0cNhnXepbxqYl+VChVVnmvnK+pGlQgZkCML3lePgu/QOFombFxZ0Ea0w
+h/xG+9Gh1r3AjEpUmgwVNg+NMpN+aoqg/Xk3t2bCxtnrwzyRGYbxBFooxlqz7Sp3
+nuAHmsvqX/Hn2yJkatMO35qwxj5Cu5rSKHF1Pt6Fd9zIEjh/bPkQrZvZKaXOSGY=
+=zQjq
+-----END PGP SIGNATURE-----
