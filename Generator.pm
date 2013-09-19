@@ -15,7 +15,7 @@ use Readonly;
 
 # Constants.
 Readonly::Scalar our $EMPTY_STR => q{};
-Readonly::Scalar our $YEAR_FROM => 1946;
+Readonly::Scalar our $YEAR_FROM => 1855;
 Readonly::Scalar our $YEAR_TO => 2054;
 
 # Version.
@@ -250,7 +250,7 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
          Parameter 'serial' isn't number.
          Parameter 'sex' has bad value.
          Parameter 'year' is greater than 2054.
-         Parameter 'year' is lesser than 1946.
+         Parameter 'year' is lesser than 1855.
          From Class::Utils::set_params():
                  Unknown parameter '%s'.
 
