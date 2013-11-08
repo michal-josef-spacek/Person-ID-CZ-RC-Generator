@@ -21,3 +21,5 @@ t/Person-ID-CZ-RC-Generator/00-use.t
 t/Person-ID-CZ-RC-Generator/01-version.t
 t/Person-ID-CZ-RC-Generator/02-pod_coverage.t
 t/Person-ID-CZ-RC-Generator/03-pod.t
+t/Person-ID-CZ-RC-Generator/04-new.t
+t/Person-ID-CZ-RC-Generator/05-rc.t
