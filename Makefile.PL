@@ -17,6 +17,7 @@ requires 'Error::Pure' => 0.11;
 requires 'List::MoreUtils' => 0;
 requires 'Random::Day' => 0.01;
 requires 'Readonly' => 0;
+requires 'perl' => '5.6.2';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Person-ID-CZ-RC-Generator';
 resources 'homepage' => 'https://github.com/tupinek/Person-ID-CZ-RC-Generator';
