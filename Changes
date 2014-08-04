@@ -1,5 +1,5 @@
 0.04
- - Update Module::Install to 1.08 version.
+ - Update Module::Install to 1.10 version.
 
 0.03 2013-11-13
  - Add 'readme_from' directive to Makefile.PL.
