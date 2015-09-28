@@ -4,6 +4,8 @@ examples/ex2.pl
 examples/ex3.pl
 Generator.pm
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -18,9 +20,9 @@ MANIFEST			This list of files
 META.yml
 README
 SIGNATURE
-t/Person-ID-CZ-RC-Generator/00-use.t
-t/Person-ID-CZ-RC-Generator/01-version.t
-t/Person-ID-CZ-RC-Generator/02-pod_coverage.t
-t/Person-ID-CZ-RC-Generator/03-pod.t
+t/Person-ID-CZ-RC-Generator/01-use.t
+t/Person-ID-CZ-RC-Generator/02-version.t
 t/Person-ID-CZ-RC-Generator/04-new.t
 t/Person-ID-CZ-RC-Generator/05-rc.t
+xt/Person-ID-CZ-RC-Generator/01-pod_coverage.t
+xt/Person-ID-CZ-RC-Generator/02-pod.t
