@@ -336,10 +336,25 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Business::DK::CPR>,
-L<No::PersonNr>,
-L<Person::ID::CZ::RC>,
-L<Se::PersonNr>.
+=over
+
+=item L<Business::DK::CPR>
+
+Danish CPR (SSN) number generator/validator
+
+=item L<No::PersonNr>
+
+Check Norwegian Social security numbers
+
+=item L<Person::ID::CZ::RC>
+
+Perl class for Czech RC identification.
+
+=item L<Se::PersonNr>
+
+Module for validating and generating a Swedish personnummer.
+
+=back
 
 =head1 REPOSITORY
 
