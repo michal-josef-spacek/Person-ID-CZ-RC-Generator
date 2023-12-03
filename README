@@ -9,54 +9,75 @@ SYNOPSIS
      my $rc = $obj->rc;
 
 METHODS
-    "new(%params)"
-             Constructor.
+  "new"
+     my $obj = Person::ID::CZ::RC::Generator->new(%params);
 
-            *       "alternate"
+    Constructor.
 
-                     Alternate flag.
-                     Default value is undef.
+    *       "alternate"
 
-            *       "day"
+            Alternate flag.
 
-                     Day.
-                     Default value is undef.
+            Default value is undef.
 
-            *       "month"
+    *       "day"
 
-                     Month.
-                     Default value is undef.
+            Day.
 
-            *       "rc_sep"
+            Default value is undef.
 
-                     RC number separator.
-                     Possible values are:
-                     - empty string
-                     - /
-                     Default value is empty string.
+    *       "month"
 
-            *       "serial"
+            Month.
 
-                     Serial number from 1 to 999.
-                     Default value is undef.
+            Default value is undef.
 
-            *       "sex"
+    *       "rc_sep"
 
-                     Sex.
-                     Possible values are:
-                     - male
-                     - female
-                     Default value is undef.
+            RC number separator.
 
-            *       "year"
+            Possible values are:
 
-                     Year.
-                     Possible values are between 1946 and 2054.
-                     Default value is undef.
+            *   empty string
 
-    "rc()"
-             Get rc identification.
-             Returns string with rc identification.
+            *   /
+
+            Default value is empty string.
+
+    *       "serial"
+
+            Serial number from 1 to 999.
+
+            Default value is undef.
+
+    *       "sex"
+
+            Sex.
+
+            Possible values are:
+
+            *   male
+
+            *   female
+
+            Default value is undef.
+
+    *       "year"
+
+            Year.
+
+            Possible values are between 1946 and 2054.
+
+            Default value is undef.
+
+    Returns instance of object.
+
+  "rc"
+     my $rc = $obj->rc;
+
+    Get rc identification.
+
+    Returns string.
 
 ERRORS
      new():

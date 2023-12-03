@@ -180,64 +180,89 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new(%params)>
+ my $obj = Person::ID::CZ::RC::Generator->new(%params);
 
- Constructor.
+Constructor.
 
 =over 8
 
 =item * C<alternate>
 
- Alternate flag.
- Default value is undef.
+Alternate flag.
+
+Default value is undef.
 
 =item * C<day>
 
- Day.
- Default value is undef.
+Day.
+
+Default value is undef.
 
 =item * C<month>
 
- Month.
- Default value is undef.
+Month.
+
+Default value is undef.
 
 =item * C<rc_sep>
 
- RC number separator.
- Possible values are:
- - empty string
- - /
- Default value is empty string.
+RC number separator.
+
+Possible values are:
+
+=over
+
+=item * empty string
+
+=item * /
+
+=back
+
+Default value is empty string.
 
 =item * C<serial>
 
- Serial number from 1 to 999.
- Default value is undef.
+Serial number from 1 to 999.
+
+Default value is undef.
 
 =item * C<sex>
 
- Sex.
- Possible values are:
- - male
- - female
- Default value is undef.
+Sex.
+
+Possible values are:
+
+=over
+
+=item * male
+
+=item * female
+
+=back
+
+Default value is undef.
 
 =item * C<year>
 
- Year.
- Possible values are between 1946 and 2054.
- Default value is undef.
+Year.
+
+Possible values are between 1946 and 2054.
+
+Default value is undef.
 
 =back
 
-=item C<rc()>
+Returns instance of object.
 
- Get rc identification.
- Returns string with rc identification.
+=head2 C<rc>
 
-=back
+ my $rc = $obj->rc;
+
+Get rc identification.
+
+Returns string.
 
 =head1 ERRORS
 
