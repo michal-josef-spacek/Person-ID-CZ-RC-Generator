@@ -148,7 +148,7 @@ SEE ALSO
         Module for validating and generating a Swedish personnummer.
 
 REPOSITORY
-    <https://github.com/tupinek/Person::ID::CZ::RC::Generator>
+    <https://github.com/michal-josef-spacek/Person::ID::CZ::RC::Generator>
 
 AUTHOR
     Michal Špaček <mailto:skim@cpan.org>

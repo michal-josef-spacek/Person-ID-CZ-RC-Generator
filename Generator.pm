@@ -349,7 +349,7 @@ Module for validating and generating a Swedish personnummer.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Person::ID::CZ::RC::Generator>
+L<https://github.com/michal-josef-spacek/Person::ID::CZ::RC::Generator>
 
 =head1 AUTHOR
 
