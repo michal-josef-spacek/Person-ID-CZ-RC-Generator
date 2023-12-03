@@ -174,6 +174,7 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 =head1 SYNOPSIS
 
  use Person::ID::CZ::RC::Generator;
+
  my $obj = Person::ID::CZ::RC::Generator->new(%params);
  my $rc = $obj->rc;
 
