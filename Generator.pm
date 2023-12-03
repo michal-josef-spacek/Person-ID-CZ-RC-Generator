@@ -16,7 +16,7 @@ Readonly::Scalar our $EMPTY_STR => q{};
 Readonly::Scalar our $YEAR_FROM => 1855;
 Readonly::Scalar our $YEAR_TO => 2054;
 
-our $VERSION = 0.06;
+our $VERSION = 0.07;
 
 # Constructor.
 sub new {
@@ -397,6 +397,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.06
+0.07
 
 =cut
