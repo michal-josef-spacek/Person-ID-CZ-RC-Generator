@@ -7,7 +7,7 @@ use Class::Utils qw(set_params);
 use DateTime;
 use English qw(-no_match_vars);
 use Error::Pure qw(err);
-use List::MoreUtils qw(none);
+use List::Util 1.33 qw(none);
 use Random::Day;
 use Readonly;
 
@@ -353,7 +353,7 @@ L<Class::Utils>,
 L<DateTime>,
 L<English>,
 L<Error::Pure>,
-L<List::MoreUtils>,
+L<List::Util>,
 L<Random::Day>,
 L<Readonly>.
 

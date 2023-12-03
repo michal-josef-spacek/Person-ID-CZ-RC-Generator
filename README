@@ -153,8 +153,8 @@ EXAMPLE3
      # Personal number: qr{\d\d\d\d\d\d\/\d\d\d\d?}
 
 DEPENDENCIES
-    Class::Utils, DateTime, English, Error::Pure, List::MoreUtils,
-    Random::Day, Readonly.
+    Class::Utils, DateTime, English, Error::Pure, List::Util, Random::Day,
+    Readonly.
 
 SEE ALSO
     Business::DK::CPR
