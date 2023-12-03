@@ -253,6 +253,8 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 
 =head1 EXAMPLE1
 
+=for comment filename=gen_rc_with_checksum.pl
+
  use strict;
  use warnings;
 
@@ -276,6 +278,8 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 
 =head1 EXAMPLE2
 
+=for comment filename=gen_rc.pl
+
  use strict;
  use warnings;
 
@@ -298,6 +302,8 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
  # Personal number: 520501/133
 
 =head1 EXAMPLE3
+
+=for comment filename=gen_rc_default.pl
 
  use strict;
  use warnings;

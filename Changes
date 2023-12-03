@@ -1,5 +1,6 @@
 0.06
  - Improve LICENSE AND COPYRIGHT section in doc.
+ - Rename example files to better names.
  - Update Module::Install to 1.21 version.
  - Update author github username.
  - Update author name.
