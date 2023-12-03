@@ -1,10 +1,8 @@
 package Person::ID::CZ::RC::Generator;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use DateTime;
 use English qw(-no_match_vars);
@@ -18,7 +16,6 @@ Readonly::Scalar our $EMPTY_STR => q{};
 Readonly::Scalar our $YEAR_FROM => 1855;
 Readonly::Scalar our $YEAR_TO => 2054;
 
-# Version.
 our $VERSION = 0.06;
 
 # Constructor.
@@ -256,11 +253,9 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Person::ID::CZ::RC::Generator;
 
  # Object.
@@ -281,11 +276,9 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Person::ID::CZ::RC::Generator;
 
  # Object.
@@ -306,11 +299,9 @@ Person::ID::CZ::RC::Generator - Perl class for Czech RC identification generatio
 
 =head1 EXAMPLE3
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Person::ID::CZ::RC::Generator;
 
  # Object.

@@ -70,11 +70,9 @@ ERRORS
                      Unknown parameter '%s'.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Person::ID::CZ::RC::Generator;
 
      # Object.
@@ -94,11 +92,9 @@ EXAMPLE1
      # Personal number: 840501/1330
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Person::ID::CZ::RC::Generator;
 
      # Object.
@@ -118,11 +114,9 @@ EXAMPLE2
      # Personal number: 520501/133
 
 EXAMPLE3
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Person::ID::CZ::RC::Generator;
 
      # Object.
